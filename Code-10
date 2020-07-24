@@ -1,1 +1,48 @@
+def is_prime(num):
+    count = 2
+    if num == 1:
+        return False
+    for i in range(2, num-1):
+        if num%i == 0:
+            count += 1
+    return True if count == 2 else False
+    
+.............................................................................................................
 
+fibonacci = [1, 1]
+while fibonacci[-1] <= 100:
+    fibonacci.append(fibonacci[-1] + fibonacci[-2])
+fibonacci[0:-1]
+
+.............................................................................................................
+
+def create_dict():
+    num_dict = {}
+    for i in range(1, 101):
+        if i not in num_dict:
+            num_dict[i] = []
+        if i**2 <= 100:
+            num_dict[i**2] = []
+            num_dict[i**2].append('Square')
+        if i in fibonacci:
+            num_dict[i].append('Fibonacci')
+        if is_prime(i):
+            num_dict[i].append('Prime')
+    return num_dict
+    
+  .................................................................................................................
+  
+  def search_dict_elem(num_dict, proprty):
+    nums = []
+    for i in num_dict.items():
+        if proprty in i[1]:
+            nums.append(i[0])
+    return tuple(nums)
+    
+  ...................................................................................................................
+  
+  num_dict = create_dict()
+  print(search_dict_elem(num_dict, 'Fibonacci'))
+  print(search_dict_elem(num_dict, 'Square'))
+  print(search_dict_elem(num_dict, 'Prime'))
+    
