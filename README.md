@@ -17,3 +17,18 @@
     a dictionary so that we can access the student's height from their names.
 
     data = [('Sumit', 183), ('Rahul', 175), ('Kritika', 170), ('Harshit', 177), ('Deepak', 162)]
+    
+  # Python-code-5:
+    Write a function which takes list of random integers as an input and returns the list all the unique values present 
+    in that list. For ex:
+
+     Input: [1, 2, 4, 4, 3, 2, 1, 1, 2, 4, 5, 3]
+     Output : [1, 2, 3, 4, 5]
+     
+  # Python-code-6:
+    Write a program to generate a dictionary that contains the number between  1  and  n  in the form of  (key:value)=(x:x2)  
+    where  n=100 . For ex:
+    If n = 7 then output will be = {0:0, 1:1, 2:4}
+    
+  # Python-code-7:
+    
