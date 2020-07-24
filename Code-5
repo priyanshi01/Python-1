@@ -1,0 +1,5 @@
+l = [1, 2, 4, 4, 3, 2, 1, 1, 2, 4, 5, 3]
+def unique_vals(l):
+  return list(set(l))
+  
+unique_vals(l)  
