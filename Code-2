@@ -1,1 +1,26 @@
+def factorial_recursive(n):
+  if n>1:
+    return n* factorial_recursive(n-1)
+  else:
+    return 1
+print(factorial_recursive(5))
 
+.....................................................................................
+
+def compute_ratio(x, n):
+  ratio= x**n/ factorial(n)
+  return ratio
+print(compute_ratio(2,3))
+
+.....................................................................................
+
+def compute_epsilon(x, epsi):
+  sum= 1
+  var= epsi
+  i=1
+  while var >=epsi:
+    var= compute_ratio(x, i)
+    sum +=var
+  return sum
+  print(i)
+print(compute_epsilon(2, 0.1)) 
