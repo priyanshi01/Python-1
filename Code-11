@@ -1,0 +1,43 @@
+para = 'Data science is an inter-disciplinary field that uses scientific methods, processes, algorithms and systems to extract 
+knowledge and insights from structured and unstructured data. Data science is related to data mining and big data. Data science 
+is a "concept to unify statistics, data analysis, machine learning and their related methods" in order to "understand and analyze actual phenomena" 
+with data. It employs techniques and theories drawn from many fields within the context of mathematics, statistics, computer science, and 
+information science. Turing award winner Jim Gray imagined data science as a "fourth paradigm" of science (empirical, theoretical, computational 
+and now data-driven) and asserted that "everything about science is changing because of the impact of information technology" and the data deluge. 
+In 2015, the American Statistical Association identified database management, statistics and machine learning, and distributed and parallel systems 
+as the three emerging foundational professional communities.'
+
+para
+
+..................................................................................................................................................
+
+def f(a):
+    a = int(ord(a))                             
+    return (2*a + 3)
+    
+....................................................................................................................................................
+
+def f_inv(a):
+    return chr(int((a - 3)/2))
+   
+...................................................................................................................................................
+
+#encoding
+encoded_para = ''
+for i in para:
+    encoded_para += str(f(i))
+    encoded_para += ' '
+with open('encoded.txt', 'w') as file:
+    file.write(encoded_para)
+    
+.................................................................................................................................................
+
+#decoding
+with open('encoded.txt', 'r') as file:
+    content = file.readline()
+
+reconstruct_para = ''
+for a in content.split(' '):
+    if a.__len__() > 0:
+        reconstruct_para = reconstruct_para + f_inv(int(a))
+reconstruct_para
