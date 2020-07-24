@@ -1,0 +1,9 @@
+def gen_dict(n):
+    sample_dict = {}
+    for i in range(n+1):
+        if i**2 > n:
+            break
+        sample_dict[i] = i**2
+    return sample_dict 
+   
+gen_dict(8)
