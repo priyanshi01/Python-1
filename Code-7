@@ -1,0 +1,14 @@
+def func(x):
+  return x**2
+
+def find_derivative(data):
+  (func, x_a) = data
+  delta_x = 0.000001
+  f_x_a = func(x_a)
+  f_delta_x = func(x_a + delta_x)
+  return ((f_delta_x - f_x_a)/delta_x, x_a, f_x_a, delta_x)
+  
+  ...........................................................................................................
+  
+  data = (func, 8)
+  find_derivative(data)
