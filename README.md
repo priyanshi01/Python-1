@@ -31,4 +31,7 @@
     If n = 7 then output will be = {0:0, 1:1, 2:4}
     
   # Python-code-7:
-    
+    Write a python function which accpets a tuple representing the fields (func,  xa ) where 'func' is any function  f(x)  and  xa  
+    is a point on which you have to find the slope i,e;  df(x)dx  and return a tuple of (slope,  xa ,  f(xa) ,  Δx ) where  Δx→0  but  Δx≠0 .
+
+    Remember :  limΔx→0f(xa+Δx)−f(xa)Δx
