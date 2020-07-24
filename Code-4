@@ -1,0 +1,10 @@
+data = [('sumit', 183), ('rahul', 175), ('kritika', 180), ('harshit', 189), ('deepak', 234)]
+print(data)
+student_data = {}
+
+................................................................................................
+
+for i in data:
+  student_data[i[0]] = i[1]
+student_data
+student_data['rahul']
