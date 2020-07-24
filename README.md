@@ -35,3 +35,7 @@
     is a point on which you have to find the slope i,e;  df(x)dx  and return a tuple of (slope,  xa ,  f(xa) ,  Δx ) where  Δx→0  but  Δx≠0 .
 
     Remember :  limΔx→0f(xa+Δx)−f(xa)Δx
+    
+  # Python-code-8:
+    Write a python function which accepts two arguments ( n ,  a ) and returns a tuple of  n  elements where  nth  element should 
+    be :  nthelement=1+a1!+a22!+a33!+...+ann!  and  a  should be any positive number. (Observe the last 10 values of returned tuple if  n>20 )
