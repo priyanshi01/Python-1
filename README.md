@@ -31,23 +31,34 @@
     If n = 7 then output will be = {0:0, 1:1, 2:4}
     
   # Python-code-7:
-    Write a python function which accpets a tuple representing the fields (func,  xa ) where 'func' is any function  f(x)  and  xa  
-    is a point on which you have to find the slope i,e;  df(x)dx  and return a tuple of (slope,  xa ,  f(xa) ,  Δx ) where  Δx→0  but  Δx≠0 .
+    Write a python function which accpets a tuple representing the fields (func,  xa ) where 'func' is any function  f(x)  
+    and  xa  is a point on which you have to find the slope i,e;  df(x)dx  and return a tuple of (slope,  xa ,  f(xa) ,  Δx ) 
+    where  Δx→0  but  Δx≠0 .
 
     Remember :  limΔx→0f(xa+Δx)−f(xa)Δx
     
   # Python-code-8:
-    Write a python function which accepts two arguments ( n ,  a ) and returns a tuple of  n  elements where  nth  element should 
-    be :  nthelement=1+a1!+a22!+a33!+...+ann!  and  a  should be any positive number. (Observe the last 10 values of returned tuple if  n>20 )
+    Write a python function which accepts two arguments ( n ,  a ) and returns a tuple of  n  elements where  nth  element 
+    should be :  nthelement=1+a1!+a22!+a33!+...+ann!  and  a  should be any positive number. 
+    (Observe the last 10 values of returned tuple if  n>20 )
     
   # Python-code-9:
-    Write a python function which generates the list of  n  dictionaries representing  n  students. Each dictionary should have two keys Name and Marks, 
-    the value of Marks key should be a list of 10 elements representing marks in 10 subjects as  [a1,a2,a3,a4,...,a10] . 
-    Create another function which accepts such dictionary and performs operation on marks and returns a list as  [α1,α2,α3,α4,...,α10]  
+    Write a python function which generates the list of  n  dictionaries representing  n  students. Each dictionary should have
+    two keys Name and Marks, the value of Marks key should be a list of 10 elements representing marks in 10 subjects as  
+    [a1,a2,a3,a4,...,a10] . 
+    Create another function which accepts such dictionary and performs operation on marks and returns a list as  
+    [α1,α2,α3,α4,...,α10]  
     where  αi=βαi−1+(1−β)ai  and  β=0.99, α0=1,i=1,2,3,...,10
     
   # Python-code-10:
-    Create a dictionary, with keys should be the number from 1 to 100 (1 and 100 both inclusive) and the value should be the list of string 
-    representing whether that key is 'Prime', 'Fibonacci' (if that number exist in Fibonacci sequence), 'Square' or all of three. 
-    Also write a function which accepts a dictionary (which you will create) and string Prime, Fibonacci or Square and by searching through 
-    dictionary it should return a tuple of that numbers.
+    Create a dictionary, with keys should be the number from 1 to 100 (1 and 100 both inclusive) and the value should be the 
+    list of string representing whether that key is 'Prime', 'Fibonacci' (if that number exist in Fibonacci sequence), 'Square' 
+    or all of three. 
+    Also write a function which accepts a dictionary (which you will create) and string Prime, Fibonacci or Square and by 
+    searching through dictionary it should return a tuple of that numbers.
+
+  # Python-code-11:
+    Choose any paragraph and write an ecoded text file then read the same file and reconstruct the original paragraph. 
+    You have to use  f(a) function for encoding and decoding the text.  f(a)=2a+3 ,where  a  is an ASCII value of charater.
+    
+    
