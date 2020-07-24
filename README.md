@@ -45,3 +45,9 @@
     the value of Marks key should be a list of 10 elements representing marks in 10 subjects as  [a1,a2,a3,a4,...,a10] . 
     Create another function which accepts such dictionary and performs operation on marks and returns a list as  [α1,α2,α3,α4,...,α10]  
     where  αi=βαi−1+(1−β)ai  and  β=0.99, α0=1,i=1,2,3,...,10
+    
+  # Python-code-10:
+    Create a dictionary, with keys should be the number from 1 to 100 (1 and 100 both inclusive) and the value should be the list of string 
+    representing whether that key is 'Prime', 'Fibonacci' (if that number exist in Fibonacci sequence), 'Square' or all of three. 
+    Also write a function which accepts a dictionary (which you will create) and string Prime, Fibonacci or Square and by searching through 
+    dictionary it should return a tuple of that numbers.
