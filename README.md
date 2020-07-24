@@ -39,3 +39,9 @@
   # Python-code-8:
     Write a python function which accepts two arguments ( n ,  a ) and returns a tuple of  n  elements where  nth  element should 
     be :  nthelement=1+a1!+a22!+a33!+...+ann!  and  a  should be any positive number. (Observe the last 10 values of returned tuple if  n>20 )
+    
+  # Python-code-9:
+    Write a python function which generates the list of  n  dictionaries representing  n  students. Each dictionary should have two keys Name and Marks, 
+    the value of Marks key should be a list of 10 elements representing marks in 10 subjects as  [a1,a2,a3,a4,...,a10] . 
+    Create another function which accepts such dictionary and performs operation on marks and returns a list as  [α1,α2,α3,α4,...,α10]  
+    where  αi=βαi−1+(1−β)ai  and  β=0.99, α0=1,i=1,2,3,...,10
