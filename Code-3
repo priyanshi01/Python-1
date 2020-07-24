@@ -1,1 +1,7 @@
-
+r = 6
+ordered_pairs = []
+def f(x):
+  return (x**2 - r**2)**1/2
+for x in range(-6, 6):
+  ordered_pairs.append((x, f(x)))
+ordered_pairs
